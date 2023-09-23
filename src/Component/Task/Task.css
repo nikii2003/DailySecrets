@@ -1,5 +1,5 @@
 .task-container{
-    border: 1px solid;
+   
     width: 400px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -7,12 +7,12 @@
     border-radius: 10px;
     margin: 30px;
     position: relative;
-    box-shadow: 0 0 0 2px rgb(19, 131, 159);
+    box-shadow: 0 0 0 2px rgb(212, 161, 144);
     cursor: pointer;
 
 }
 .task-container:hover{
-    background-color: rgb(165, 236, 236);
+   box-shadow: 0 0 10px 5px black;
    
 }
 .taskpriority{
@@ -20,11 +20,12 @@ position: absolute;
 top: 0;
 right: 0;
 width: 50px;
-background-color: rgb(19, 131, 159);
-color: white;
+background-color:rgb(204, 119, 90) ;
+color: black;
 padding-left: 20px;
-border-radius: 0 10px 3px 0;
+border-radius: 0px 10px 0px 0;
 height: 25px;
+
 }
 .task-delet-icon{
     position: absolute;

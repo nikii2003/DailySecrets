@@ -1,6 +1,6 @@
 .heading{
     text-align: center;
-    background-color: cadetblue;
+    background-color: rgb(212, 161, 144);
     padding: 0 0 10px 3px;
 }
 .container{
@@ -17,6 +17,7 @@ justify-content: space-around;
 
     height: 500px;
     overflow-y: scroll;
+    
 }
 .tasks-container::-webkit-scrollbar{
     width: 20px;
@@ -27,12 +28,13 @@ justify-content: space-around;
     border-radius: 10px;
     font-size: 18px;
     margin: 20px;
+    border: 0.5px solid rgb(204, 119, 90) ;
 }
 .addBtn{
     display: block;
     margin: 10px auto;
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: rgb(212, 161, 144);
+    color: black;
     font-size: 18px;
    width: 150px;
    padding: 10px;
