@@ -5,6 +5,7 @@ import './../../index.css';
 import Task from "./../../Component/Task/Task";
 import { saveListToLocalStorage } from "../../Util/Localstorage";
 
+
 const Home = ((textItem) => {
     const [tasklist, setTaskList] = useState([
         {
@@ -144,7 +145,7 @@ showToast('Task updated successfully ', 'Info', 3000);
                     }
                     {
                         tasklist.map((taskItem, index) => {
-                            const {id,title, description, priority} = taskItem;
+                            const {id,title, description, priority } = taskItem;
 
                             return <Task id={id}
                                 title={title}
@@ -165,7 +166,7 @@ showToast('Task updated successfully ', 'Info', 3000);
                     </h2>
                     <div className="input-container">
                         <form>
-                            <input type="text" placeholder="Enter title" className="inputBox" value={title} onChange={(e) => {
+                    <input type="text" placeholder=" Enter title"   className="inputBox" value={title} onChange={(e) => {
                                 settitle(e.target.value)
                             }} /><br />
                               <input type="text" placeholder="Enter decription" className="inputBox" value={description} onChange={(e) => {

@@ -1,4 +1,6 @@
 import './Task.css';
+
+
 const Task = ({id,title,description,priority,removeTaskFromList,setTaskEditable}) =>
 {
     return(
@@ -10,7 +12,7 @@ const Task = ({id,title,description,priority,removeTaskFromList,setTaskEditable}
             <span className='task-delet-icon'
              onClick={()=>{
               removeTaskFromList(id);
-            }}>🗑</span>
+            }}>🗑 </span>
             <span className='task-edit-icon'
              onClick={()=>{
                 setTaskEditable(id);
