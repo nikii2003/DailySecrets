@@ -7,12 +7,13 @@
     border-radius: 10px;
     margin: 30px;
     position: relative;
-    box-shadow: 0 0 0 2px rgb(212, 161, 144);
+    
     cursor: pointer;
-
+    box-shadow: 0 0 10px 5px black;
 }
 .task-container:hover{
-   box-shadow: 0 0 10px 5px black;
+   
+   box-shadow: 0 0 0 2px rgb(212, 161, 144);
    
 }
 .taskpriority{

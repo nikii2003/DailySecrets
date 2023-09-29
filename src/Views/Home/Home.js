@@ -10,9 +10,9 @@ const Home = ((textItem) => {
     const [tasklist, setTaskList] = useState([
         {
             id: 1,
-            title: "submit assignment",
-            description: "not allow in lecture",
-            priority: "high",
+            title: "Plan Weekend Getaway",
+            description: " Research destinations, book accommodation, and plan activities.",
+            priority: "Low",
         }
 
     ])
@@ -162,7 +162,7 @@ showToast('Task updated successfully ', 'Info', 3000);
                 </div>
                 <div>
                     <h2 className="common-text">
-                    {isEdit ? `Update Task ${id}` : 'Add Task'}
+                    {isEdit ? `Update Task ${id}` : 'Add  Secrets'}
                     </h2>
                     <div className="input-container">
                         <form>

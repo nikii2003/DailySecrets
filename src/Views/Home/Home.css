@@ -1,7 +1,14 @@
 .heading{
     text-align: center;
-    background-color: rgb(212, 161, 144);
+  background-color: rgb(235, 80, 28);
+  color: aliceblue;
     padding: 0 0 10px 3px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+   border-radius: 25px;
+   font-size: 20px;
+   margin-top: 30px;
 }
 .container{
 display: flex;
@@ -28,12 +35,12 @@ justify-content: space-around;
     border-radius: 10px;
     font-size: 18px;
     margin: 20px;
-    border: 0.5px solid rgb(204, 119, 90) ;
+    border: 0.5px solid rgb(235, 80, 28) ;
 }
 .addBtn{
     display: block;
     margin: 10px auto;
-    background-color: rgb(212, 161, 144);
+    background-color: rgb(241, 86, 35);
     color: black;
     font-size: 18px;
    width: 150px;
@@ -44,6 +51,10 @@ justify-content: space-around;
 }
 .input-container{
     margin-top: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: -30px;
+    border-radius: 10px;
 }
 .btn-container{
     display: flex;
